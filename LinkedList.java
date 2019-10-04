@@ -18,6 +18,7 @@ public class LinkedList implements Iterable {
         private boolean removeOK;
         private int posToRemove;
         
+        //constructor
         private LLIterator(){
             nextNode = head;
             removeOK = false;
